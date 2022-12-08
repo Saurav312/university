@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: .2s linear;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img
+{
+    width: 7rem;
+}
+section
+{
+    padding: 50px 0;
+}
+.navbar-nav
+{
+    padding: 10px 0px !important;
+}
+.nav-link {
+    padding: 9px 16px !important;
+    font-size: 1.1rem !important;
+    color: #15155f !important;
+}
+.nav-link:hover
+{
+    color: #f1bf3a !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #f1bf3a !important;
+}
+#banner
+{
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url(/images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white ;
+}
+#banner-about
+{
+    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url(/images/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white ;
+}
+#banner button {
+    padding: 11px 29px;
+    background: #15155f;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+}
+#banner button:hover
+{
+    background-color: white;
+    color: #15155f;
+}
+.visit:hover
+{
+    background-color: white !important;
+    color: #f1bf3a !important;
+}
+.feature 
+{
+    background: #f9f9ff;
+    padding: 19px 31px;
+}
+.feature i
+{
+    background: #f9f9ff;
+    color: black;
+}
+section h2
+{
+    color: #15155f;
+}
+.feature p
+{
+    color: #717787;
+}
+.widths p
+{
+    color: #717787;
+}
+.price {
+    position: absolute;
+    top: 71%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+    background: #15155f;
+    color: white;
+    padding: 13px;
+    width: 55px;
+    border-radius: 50%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widths
+{
+    background: #f9f9ff;
+}
+.widths img
+{
+    margin-bottom: 14px;
+}
+.widths h5
+{
+    margin: 6px 0px;
+}
+.widths i
+{
+    color: #f1bf3a;
+}
+
+#upcoming
+{ 
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url(/images/signup.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#upcoming h3
+{
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+.count-box
+{
+    background: rgba(255, 255,255 , .25);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form
+{
+    width: 100%;
+    padding: 33px 19px !important;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 7px;
+    gap: 15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: 1px solid #15155f;
+    outline: 0 !important;
+}
+button.signup {
+    padding: 11px 21px;
+    border: 0;
+    background-color: #f1bf3a;
+    color: white;
+    border-radius: 5px;
+}
+button.signup:hover{
+    color:#f1bf3a;
+    background-color: white;
+}
+.team
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team i {
+    font-size: 2rem;
+   color: #15155f;
+   margin-bottom: 15px;
+   cursor: pointer;
+}
+.team i:hover {
+   background-color: #15155f;
+  color:white;
+}
+footer
+{
+    background-color: #15155f;
+   color: white !important;
+}
+
+footer img
+{
+    width: 6rem;
+}
+
+footer i
+{
+    color: #f1bf3a !important;
+}
+#about-1 p
+{
+    color: #777;
+}
+#compaines img
+{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+.feature-space {
+    max-width: 1219px !important;
+}
+}
+
+@media (min-width: 768px){
+.feature {
+    width: 31% !important;
+}
+.widths
+{
+    width: 31% !important;
+}
+}
+
+@media (max-width: 600px){
+    .feature {
+        width: 90% !important;
+    }
+    .widths
+    {
+        width: 90% !important;
+    }
+    .upcome
+    {
+        width: 90% !important;
+       margin: auto;
+    }
+    }
+
+    @media (max-width: 768px){
+       .compaines{
+        width: 50% !important;
+        gap: 10px;
+       }
+        }
